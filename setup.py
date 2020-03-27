@@ -14,9 +14,9 @@ PKG_INSTALL_REQS = ["pytest>=4.2.0", "requests>=2.21.0", "pytz"]
 
 
 setup(
-    name="pytest-xray-nioauto",
+    name="pytest-xray",
     author="hongzhen.bi",
-    author_email="hongzhen.bi@nio.com",
+    author_email="hzhbee@qq.com",
     version="0.0.13",
     python_requires=">=3.6",
     long_description=long_description(),
@@ -24,7 +24,7 @@ setup(
     packages=['pytest_xray'],
     install_requires=PKG_INSTALL_REQS,
     summary="py.test Xray integration plugin, using markers",
-    entry_points={"pytest11": ["pytest_xray_nioauto = pytest_xray.plugin"]},
+    entry_points={"pytest11": ["pytest_xray = pytest_xray.plugin"]},
     classifiers=[
         "Development Status :: 3 - Alpha",
         'Framework :: Pytest',
