@@ -28,7 +28,7 @@ base64.b64encode('nsername:password'.encode('utf-8')).decode()
 在项目根目录的pytest.ini中添加xray url配置
 
 ```ini
-addopts = -vv --authentication=base64_code_generated_above --test-plan-key=CCATM-24 --test-exec-key=CCATM-109
+addopts = -vv --authentication=base64_code_generated_above --test-plan-key=TPJ-1 --test-exec-key=TPJ-2
 
 [xray]
 XRAY_API_BASE_URL = https://jira.XXXXX.com
